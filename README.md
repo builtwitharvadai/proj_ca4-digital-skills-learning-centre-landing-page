@@ -1,0 +1,2 @@
+# proj_ca4-digital-skills-learning-centre-landing-page
+A single-page website that serves as the digital front door for a digital skills learning centre. The landing page will showcase the centre's offerings, highlight key benefits, and provide essential information to attract potential students. This is a static, informational website designed to create a strong first impression and encourage visitor e
