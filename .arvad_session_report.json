@@ -1,0 +1,19 @@
+{
+  "files_created": [],
+  "files_modified": [".gitignore", "README.md"],
+  "decisions": [
+    {
+      "what": "Replaced existing Python-oriented .gitignore with static-site patterns covering OS, editor, backup, and local testing files.",
+      "why": "Spec 001 required a .gitignore for a pure static site and explicitly excluded Node.js/Python patterns since there are no build tools."
+    },
+    {
+      "what": "Overwrote the placeholder README.md with a full project overview, tech stack, file structure, local development steps, GitHub Pages deployment guide, browser compatibility list, and WCAG 2.1 AA accessibility notes.",
+      "why": "Spec 002 required a comprehensive README covering all of these sections."
+    },
+    {
+      "what": "Preserved the existing `arvad_task_files/` entry in .gitignore.",
+      "why": "It is unrelated to OS/editor patterns but is required to keep task files out of version control in this environment."
+    }
+  ],
+  "tools_used": ["Read", "Write", "Bash"]
+}
